@@ -5,8 +5,8 @@ import { Roboto } from 'next/font/google';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import { Routes } from '@/constants';
 import { AuthContextProvider } from '@/hooks';
+import { Routes } from '@/constants';
 
 const roboto = Roboto({
   weight: ['400', '500', '700', '900'],
